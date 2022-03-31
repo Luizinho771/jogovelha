@@ -21,7 +21,7 @@ public class Main {
         Jogador[] jogadores = new Jogador[3];
         jogadores[0] = new JogadorLinhaColuna("LinhaColuna");
         jogadores[1] = new JogadorAleatorio("Aleatório");
-        jogadores[2] = new Manual("Eu");
+        jogadores[2] = new JogadorVingador("VINGADOR");
         
         Campeonato campeonato = new Campeonato(jogadores, 3);
         Participacao[] p = campeonato.runPontosCorridos();
