@@ -1,3 +1,5 @@
+//build using minmax algorithm by Luiz Paulo
+
 package jogadores;
 
 public class JogadorVingador extends Jogador {
