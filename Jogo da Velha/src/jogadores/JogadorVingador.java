@@ -66,7 +66,9 @@ public class JogadorVingador extends Jogador {
             }
         } else {
             // limit the recursion to idealBoardSize times
-            // return score;
+            if (depth >= 3) {
+                return score;
+            }
         }
 
         // terminal cases with win or lose condition(end of the game)

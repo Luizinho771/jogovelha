@@ -23,7 +23,7 @@ public class Main {
         jogadores[1] = new JogadorAleatorio("Aleatório");
         jogadores[2] = new JogadorVingador("VINGADOR");
         
-        Campeonato campeonato = new Campeonato(jogadores, 3);
+        Campeonato campeonato = new Campeonato(jogadores, 10);
         Participacao[] p = campeonato.runPontosCorridos();
         
         for(int i = 0; i < p.length; i++){
